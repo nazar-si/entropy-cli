@@ -6,6 +6,7 @@ npx tsc
 echo "Running tests"
 npm run test
 npm run test:badges
+rm -r ./coverage/lcov-report
 echo "Running lint check"
 npm run lint
 echo "Running code formatting"
