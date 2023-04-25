@@ -7,6 +7,9 @@
 
 # testing
 /test-results
+coverage/lcov-report/prettify.js
+coverage/lcov-report/block-navigation.js
+coverage/lcov-report/sorter.js
 
 # next.js
 /.next/
