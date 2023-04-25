@@ -1,4 +1,9 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx tsc && npm run lint && npm run prettier
+echo "Running types check"
+npx tsc 
+echo "Running lint check"
+npm run lint
+echo "Running code formatting"
+npm run prettier
