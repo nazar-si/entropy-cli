@@ -117,6 +117,6 @@ The structure of the project is following:
 ├ ○ app/api  : API pages
 ├ ○ app      : Application pages
 ├ ○ hooks    : All the general hooks
-├ ○ stores   : Redux stores
+├ ○ redux    : Redux stores
 └ ○ features : Features with own hooks, logic etc.
 ```
