@@ -19,14 +19,19 @@ This project uses following libraries by default:
 
 1. **Next.js** - Metaframework for SSR
 2. **React** - UI Framework
-3. **Surreal UI** - Our components library
-4. **Tailwind** - Styling classes
-5. **SWR** - Light-weight library for fetch queries
-6. **Testing** and **Linting** setups
-7. **CI/CD** with Github Actions
-8. **Zod** - Schema validation library
-9. **Docker**
-10. **Custom hooks**
+3. **Redux** - State management
+4. **Surreal UI** - Our components library
+5. **Tailwind** - Styling classes
+6. **SWR** - Light-weight library for fetch queries
+7. **Testing** and **Linting** setups
+   - **EsLint**
+   - **Jest**
+   - **React Testing Library**
+   - **Playwright**
+8. **CI/CD** with Github Actions
+9. **Zod** - Schema validation library
+10. **Docker**
+11. **Custom hooks**
 
 ## Commits
 
