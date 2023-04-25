@@ -123,5 +123,9 @@ The structure of the project is following:
 ├ ○ app      : Application pages
 ├ ○ hooks    : All the general hooks
 ├ ○ redux    : Redux stores
-└ ○ features : Features with own hooks, logic etc.
+├ ○ features : Features with own hooks, logic etc.
+├ ○ e2e      : E2E tests for Playwright
+├ ○ tests    : Tests
+├ ○ ui       : All UI components
+└ ○ test-results : Results of test for Playwright
 ```
