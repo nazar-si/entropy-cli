@@ -103,5 +103,20 @@ to execute commands directly. To get help you can type `h` or `help`. Basic func
    - Types
    - React components
    - API
+   - Redux
    - Tests
 3. More functionality will be added in the process of usage
+
+## Structural Guidelines
+
+The structure of the project is following:
+
+```bash
+┌ ○ /
+├ ○ .husky   : Commits settings
+├ ○ app/api  : API pages
+├ ○ app      : Application pages
+├ ○ hooks    : All the general hooks
+├ ○ stores   : Redux stores
+└ ○ features : Features with own hooks, logic etc.
+```
