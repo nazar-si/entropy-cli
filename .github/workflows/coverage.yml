@@ -15,12 +15,3 @@ jobs:
         uses: jpb06/jest-badges-action@v1.9.14
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          coverage_path: ./coverage/coverage-summary.json
-          coverage_badge_path: ./coverage/badges/coverage.svg
-          coverage_badge_color: "#00ff00"
-          coverage_badge_label: "coverage"
-          coverage_badge_style: "flat"
-          coverage_badge_logo: "https://raw.githubusercontent.com/jpb06/jest-badges-action/main/assets/jest-logo.svg"
-          coverage_badge_logo_width: "20"
-          coverage_badge_logo_height: "20"
-          coverage_badge_logo_position: "left"
