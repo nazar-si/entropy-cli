@@ -4,14 +4,31 @@ on:
   push:
     branches:
       - main
-# generate jest coverage badges
+
 jobs:
-  coverage:
+  sync-and-generate-badges:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Generate coverage badges
-        uses: jpb06/jest-badges-action@v1.9.14
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.11.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          access_token: ${{ github.token }}
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Checkout badges branch
+        run: git checkout badges
+
+      - name: Rebase badges on master
+        run: git merge origin/master
+
+      - name: Push badges branch
+        run: git push origin badges
+
+      - name: Generating coverage badges
+        uses: jpb06/jest-badges-action@latest
+        with:
+          branches: badges
