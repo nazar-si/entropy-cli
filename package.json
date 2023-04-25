@@ -11,7 +11,9 @@
     "lint": "next lint",
     "cli": "python ./cli/main.py",
     "prettier": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "coverage": "jest --coverage",
+    "test": "jest"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
@@ -37,6 +39,10 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
-    "@testing-library/react": "^14.0.0"
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0"
   }
 }

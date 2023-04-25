@@ -3,6 +3,8 @@
 
 echo "Running types check"
 npx tsc 
+echo "Running tests"
+npm run test
 echo "Running lint check"
 npm run lint
 echo "Running code formatting"
