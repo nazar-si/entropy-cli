@@ -8,7 +8,7 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   testEnvironment: "jest-environment-jsdom",
-  coverageReporters: ["json-summary"],
+  coverageReporters: ["json-summary", "text", "lcov"],
   testPathIgnorePatterns: ["<rootDir>/e2e/"],
 };
 
