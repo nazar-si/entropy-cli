@@ -12,8 +12,9 @@ This project uses following libraries by default:
 5. **SWR** - Light-weight library for fetch queries 
 6. **Testing** and **Linting** setups 
 7. **CI/CD** with Github Actions 
-8. **Docker**
-9. **Custom hooks**
+8. **Zod** - Schema validation library
+9. **Docker**
+10. **Custom hooks**
 ## CLI
 To run CLI you can use following commands:
 ```bash
