@@ -1,0 +1,2 @@
+- name: Jest badges generation action
+  uses: jpb06/jest-badges-action@v1.9.14
