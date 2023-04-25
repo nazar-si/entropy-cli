@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "cli": "python ./cli/main.py",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
