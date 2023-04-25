@@ -6,6 +6,12 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended"
   ],
+  "ignorePatterns": [
+    "node_modules/",
+    "out/",
+    "next.config.js",
+    ".github/workflows/*.yml"
+  ],
   "rules": {
     "prefer-const": "error",
     "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }]
