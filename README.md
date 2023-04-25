@@ -1,5 +1,10 @@
 # Entropy CLI
 
+![](./coverage/badge-branches.svg)
+![](./coverage/badge-functions.svg)
+![](./coverage/badge-lines.svg)
+![](./coverage/badge-statements.svg)
+
 This is the base project developed by Entropy Concept team to facilitate frontend development.
 
 This repo comes with automated code generation and several libraries preinstalled.
