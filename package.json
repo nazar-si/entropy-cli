@@ -35,6 +35,8 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
     "@testing-library/react": "^14.0.0"
   }
 }
