@@ -2,7 +2,6 @@ from os import system
 from os import path 
 import os
 from libs import libs, remove_libs, install_libs 
-from copy_func import copy_func
 from sys import argv
 
 from create.page import page

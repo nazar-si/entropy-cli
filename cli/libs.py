@@ -1,3 +1,5 @@
+from os import system
+
 libs = {
     "tabler-icons-react":   ["icons", "Icons library"],
     "react-dnd":            ["dnd", "Drag and Drop library"],
