@@ -39,6 +39,3 @@ const useAuth = (email: string, password: string) => {
     error,
   };
 };
-
-const { user, loading, error } = useAuth("email", "password");
-console.log(user);
