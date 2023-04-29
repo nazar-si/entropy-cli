@@ -32,6 +32,7 @@ module.exports = {
         "translation",
         "security",
         "multi",
+        "branch",
       ],
     ],
   },

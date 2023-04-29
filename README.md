@@ -82,6 +82,7 @@ Types of commits:
 - **trans** - some directory changes
 - **security** - security updates
 - **multi** - multiple updates
+- **branch** - branch manipulation
 
 To add types or change commit process described above you may address [nazar-si](https://github.com/nazar-si) ([@katze](https://t.me/sciencekatze)). Types can be also changed directly in [commitlint.config.js](./commitlint.config.js).
 
