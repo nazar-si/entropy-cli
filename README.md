@@ -24,7 +24,7 @@ This project uses following libraries by default:
 
 1. **Next.js** - Metaframework for SSR
 2. **React** - UI Framework
-3. **Redux** - State management
+3. **Zustand** - State management
 4. **Surreal UI** - Our components library
 5. **Tailwind** - Styling classes
 6. **SWR** - Light-weight library for fetch queries
@@ -114,7 +114,7 @@ to execute commands directly. To get help you can type `h` or `help`. Basic func
    - Types
    - React components
    - API
-   - Redux
+   - Zustand
    - Tests
 3. More functionality will be added in the process of usage
 
