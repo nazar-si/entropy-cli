@@ -24,6 +24,12 @@
       "@app/*": ["./app/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lighthouserc.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "lighthouserc.js"
+  ],
   "exclude": ["node_modules", "cli"]
 }
