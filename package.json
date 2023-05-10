@@ -16,7 +16,7 @@
     "test:badges": "npm run test:coverage  && jest-coverage-badges",
     "test": "jest",
     "test:e2e": "playwright test",
-    "ci": "npm i && npm run test"
+    "ci": "npm ci && npm run test"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
