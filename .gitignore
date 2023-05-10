@@ -10,6 +10,7 @@
 coverage/lcov-report/prettify.js
 coverage/lcov-report/block-navigation.js
 coverage/lcov-report/sorter.js
+/.unlighthouse
 
 # next.js
 /.next/
