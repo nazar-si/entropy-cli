@@ -128,7 +128,7 @@ The structure of the project is following:
 ├ ○ app/api  : API pages
 ├ ○ app      : Application pages
 ├ ○ hooks    : All the general hooks
-├ ○ redux    : Redux stores
+├ ○ state    : Zustand stores
 ├ ○ features : Features with own hooks, logic etc.
 ├ ○ e2e      : E2E tests for Playwright
 ├ ○ tests    : Tests
