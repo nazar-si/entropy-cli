@@ -7,7 +7,7 @@
 
 This is the base project developed by Entropy Concept team to facilitate frontend development.
 
-This repo comes with automated code generation and several libraries preinstalled.
+This repo comes with automated code generation CLI written in Python and several libraries preinstalled.
 
 ## Getting started
 
