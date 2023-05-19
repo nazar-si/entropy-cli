@@ -118,6 +118,30 @@ to execute commands directly. To get help you can type `h` or `help`. Basic func
    - Tests
 3. More functionality will be added in the process of usage
 
+### Page generation
+```bash
+npm run cli -- create page -<flag1> -<flag2> ...
+```
+or shorter
+```bash
+npm run cli -- c p -<flag><flag>...
+```
+Following flags are present:
+```
+-d - dynamic route
+-a - catch-all route
+-A - optional catch-all route
+-g - group route
+-i - put everything inside (index) folder
+-e - generate error page
+-l - generate layout file
+-s - do not generate style file
+-f - add default fetch functions 
+```
+For example, to create Next.js dynamic route with Layout and Error page with prewritten fetching fountions one may use following command:
+```bash
+npm run cli -- c p path/page_name -dlef
+```
 ## Structural Guidelines
 
 The structure of the project is following:
