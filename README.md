@@ -5,7 +5,7 @@
 ![](./coverage/badge-lines.svg)
 ![](./coverage/badge-statements.svg)
 
-This is the base project developed by [nazar-si](https://github.com/nazar-si) for Entropy Concept team to facilitate frontend development.
+This is the base project developed by [nazar-si](https://github.com/nazar-si) for [Entropy Concept team](https://github.com/EntropyConcept) to facilitate frontend development.
 
 This repo comes with automated code generation CLI written in Python and several libraries preinstalled.
 
