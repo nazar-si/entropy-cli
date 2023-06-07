@@ -1,10 +1,16 @@
 import { create } from "zustand";
 
+export interface Actions {
+  add: () => void;
+}
 export interface State {
   count: number;
 }
 
-const $countStore = create<State>((set) => ({
+type StoreType = State & Actions
+
+
+const $countStore = create<StoreType>((set) => ({
   count: 0,
   add: () => set((s) => ({ count: s.count + 1 })),
 }));

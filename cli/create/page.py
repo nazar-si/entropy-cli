@@ -35,7 +35,7 @@ flags:
 \t-g - group route
 \t-i - put everything inside (index) folder
 \t-e - generate error page
-\t-l - generate layout file
+\t-l - generate layout fil 
 \t-s - do not generate style file
 \t-f - add fetch
         ''')
