@@ -7,7 +7,6 @@ export default function Home() {
         {$countStore((s) => s.count)}
         <button onClick={$countStore((s) => s.add)}></button>
       </div>
-      
     </>
   );
 }

@@ -7,8 +7,7 @@ export interface State {
   count: number;
 }
 
-type StoreType = State & Actions
-
+type StoreType = State & Actions;
 
 const $countStore = create<StoreType>((set) => ({
   count: 0,
