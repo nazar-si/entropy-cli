@@ -29,7 +29,7 @@
     "eslint-config-next": "13.4.9",
     "husky": "^8.0.3",
     "jest-coverage-badges": "^1.1.2",
-    "next": "13.3.0",
+    "next": "13.4.9",
     "postcss": "8.4.25",
     "prettier": "^3.0.0",
     "react": "18.2.0",
