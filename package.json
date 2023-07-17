@@ -27,7 +27,7 @@
     "@typescript-eslint/parser": "^5.58.0",
     "autoprefixer": "10.4.14",
     "eslint": "8.44.0",
-    "eslint-config-next": "13.4.9",
+    "eslint-config-next": "13.4.10",
     "husky": "^8.0.3",
     "jest-coverage-badges": "^1.1.2",
     "next": "13.4.10",
