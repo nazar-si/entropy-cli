@@ -11,6 +11,6 @@ describe("Page test", () => {
     );
     expect(container).toBeInTheDocument();
     expect(container.firstChild).toHaveClass(style.page);
-    expect(container.firstChild).toHaveTextContent("id");
+    expect(container.firstChild).toHaveTextContent("1");
   });
 });
