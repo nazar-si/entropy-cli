@@ -1,3 +1,4 @@
+"use client";
 import $countStore from "@/state/feature/countStore";
 
 export default function Home() {

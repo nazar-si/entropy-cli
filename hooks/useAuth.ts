@@ -39,3 +39,5 @@ const useAuth = (email: string, password: string) => {
     error,
   };
 };
+
+export default useAuth;
