@@ -31,7 +31,7 @@
     "husky": "^8.0.3",
     "jest-coverage-badges": "^1.1.2",
     "next": "13.4.18",
-    "postcss": "8.4.28",
+    "postcss": "8.4.31",
     "prettier": "^3.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
